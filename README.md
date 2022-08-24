@@ -22,6 +22,8 @@
 
 ## 💛BaekJoon(백준알고리즘)
 ### 💚PYTHON
+> 💙[🌱](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/새싹)
+
 > 💙[Bronze I](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze1)
 
 > 💙[Bronze II](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze2)
