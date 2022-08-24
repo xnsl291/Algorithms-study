@@ -22,27 +22,34 @@
 
 ## 💛BaekJoon(백준알고리즘)
 ### 💚PYTHON
-> 💙[🌱](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/새싹)
-
-> 💙[Bronze I](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze1)
-
-> 💙[Bronze II](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze2)
-
-> 💙[Bronze III](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze3)
-
-> 💙[Bronze IV](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze4)
+> 💙[🍀](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/새싹)
 
 > 💙[Bronze V](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze5)
 
-> 💙[Silver I](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver1)
+> 💙[Bronze IV](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze4)
 
-> 💙[Silver II](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver2)
+> 💙[Bronze III](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze3)
 
-> 💙[Silver III](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver3)
+> 💙[Bronze II](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze2)
+
+> 💙[Bronze I](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze1)
+
+
+> 💙[Silver V](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver5)
 
 > 💙[Silver IV](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver4)
 
-> 💙[Silver V](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver5)
+> 💙[Silver III](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver3)
+
+> 💙[Silver II](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver2)
+
+> 💙[Silver I](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver1)
+
+
+
+
+
+
 
 
 
