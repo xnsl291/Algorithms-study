@@ -5,3 +5,10 @@ def solution(phone_number):
 # 한줄로 풀어보기
 def solution2(phone_number):
     return "*"* (len(phone_number)-4)+ phone_number[-4:]
+
+#f-string이용 
+def solution3(phone_number):
+    return f"{phone_number[-4:]:*>11}"
+
+
+solution3("01043552464")
