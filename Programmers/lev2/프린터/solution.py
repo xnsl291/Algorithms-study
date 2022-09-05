@@ -14,9 +14,9 @@ def solution(priorities, location):
     
     
     
-# p = [1, 3, 9, 1, 1, 1]
-# loc = 1
-# print(solution(p,loc))
+p = [1, 3, 9, 1, 1, 1]
+loc = 1
+print(solution(p,loc))
 
 
 
