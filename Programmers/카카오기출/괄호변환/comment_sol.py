@@ -17,8 +17,6 @@ def split_str(s):
         
     cnt,u,v = 0,s[:index+2], s[index+2:]
 
-    # print("u,v ==========",u,v)
-
     for i in lst[:i+2]:  # u 판별
         cnt += i
 
@@ -26,17 +24,11 @@ def split_str(s):
         if lst[0] <0 or cnt<0 : #
             #case 4 실행
 
-            # print(f"u ===={u}")
-            # print(f"v ===={v}")
-
             # v 앞뒤로 '(' , ')' 추가
             ans.append("("+ v +")" )
 
             # u 문자열치환 후 추가
             ans.append("".join( [")" if i== "(" else "(" if i==")" else "" for i in u[1:-1] ] ))
-
-            # u_ans = "".join( [")" if i== "(" else "(" if i==")" else "" for i in u[1:-1] ] )
-            # print(f"ans = {ans}")
 
         else:
             ans.append(u)
