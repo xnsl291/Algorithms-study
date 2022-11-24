@@ -1,4 +1,5 @@
 def solution(number, limit, power):
+    answer = 0
     # 1. number까지 각 수의 약수 개수 세기 
     # 2. limit 초과하는지 확인하고 
     # 3. 초과분은 power로 대체 
