@@ -11,7 +11,5 @@ for i in range(num):
         if cnt < 0:
             print('NO')
             break
-    if cnt > 0:
-        print('NO')
-    elif cnt == 0:
-        print('YES')
+    print('NO') if cnt > 0 else print('YES')
+        
