@@ -13,12 +13,12 @@ def split_str(s):
             index = i
             break
         
-    cnt,u,v = 0,s[:i+2], s[i+2:]
+    cnt,u,v = 0,s[:index+2], s[index+2:]
 
     for i in lst[:i+2]: 
         cnt += i
         if lst[0] <0 or cnt<0 : 
-            ans.append("".join(["(",v,")"]))
+            ans.append("("+ v +")" )
             ans.append("".join( [")" if i== "(" else "(" if i==")" else "" for i in u[1:-1] ] ))
 
         else:
@@ -28,4 +28,7 @@ def split_str(s):
         break
 
     return "".join(ans) 
-    
+
+
+tmp = "())(()"
+print(split_str(tmp))
