@@ -11,8 +11,7 @@ class Solution {
         {
             int point = 0 ;
             for (String person : photo[i])
-                if (map.containsKey(person))
-                    point+=map.get(person);
+                point += map.getOrDefault(person,0);
             answer[i] = point;
         }
         return answer;
