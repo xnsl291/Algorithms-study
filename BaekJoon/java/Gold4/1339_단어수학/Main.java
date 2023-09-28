@@ -20,10 +20,7 @@ public class Main {
             String input = br.readLine();
             for(int j=input.length()-1; j>=0; j--) {
                 char key = input.charAt(input.length() - 1 - j);
-                if(!map.containsKey(key))
-                    map.put(key, (int)Math.pow(10,j));
-                else
-                    map.put(key, map.get(key) + (int)Math.pow(10,j));
+                map.put( key, (map.get(key)!=null?map.get(key):0 ) +(int)Math.pow(10,j) );
             }
             input_arr[i] = input;
         }
@@ -37,18 +34,12 @@ public class Main {
             }
         });
 
-        //map 요소 중, 값이 큰 순서대로 9~ 값 부여하기
+        int answer = 0;
         int idx = 9;
-        for(Map.Entry<Character, Integer> entry : entryList){
-            map.put(entry.getKey(), idx) ;// 덮어쓰기
-            idx --;
+        for (Map.Entry<Character, Integer> entry : entryList) {
+            answer += map.get(entry.getKey()) * idx;
+            idx--;
         }
-
-        int answer = 0 ;
-        // 값 대체
-        for(String str:input_arr)
-            for (int j=str.length()-1; j>=0; j--)
-                answer += map.get(str.charAt(str.length()-1-j))   *Math.pow(10,j) ;
         System.out.println(answer);
 
     }
