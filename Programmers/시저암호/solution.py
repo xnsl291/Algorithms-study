@@ -16,4 +16,4 @@ def solution2(s, n):
     return "".join(ans)
 
 #solution3
-# 문자열을 리스트에 지정하는 대신, askii로 비교?
+# 문자열을 하나하나 리스트에 지정하는 대신, askii로 비교?
