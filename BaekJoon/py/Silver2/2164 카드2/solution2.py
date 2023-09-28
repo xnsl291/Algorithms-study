@@ -1,9 +1,15 @@
 #solution2 - queue
-lst = list(range(1,int(input())+1))
+from collections import deque
+import sys
+lst = deque(range(1,int(sys.stdin.readline())+1))
+if len(lst)>1:
+    while(True):
+        lst.popleft()
+        lst.append(lst[0])
+        lst.popleft()
 
-while len(lst)>1:
-    lst.pop(0)
-    lst.append(lst[0])
-    # lst.pop(0)
-    
+        if len(lst)==1:
+            break
+
+
 print(lst[0])
