@@ -8,7 +8,8 @@ def solution2(phone_number):
 
 #f-string이용 
 def solution3(phone_number):
-    return f"{phone_number[-4:]:*>11}"
+    n = len(phone_number)
+    return f"{phone_number[-4:]:*>{n}}"
 
 
-solution3("01043552464")
+print(solution3("01043552464"))
