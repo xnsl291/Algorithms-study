@@ -12,10 +12,13 @@ def solution(number, limit, power):
 
 def getNum(number):
     cnt = 0
-    
     for j in range(1, int(number**(1/2))+1):
         if number%j == 0 :
             cnt= cnt+2 if ( (j**2) != number) else cnt+1 
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> fb3ee84c20fd4a19e10454883025dd87667fbdaf
     return cnt
 
