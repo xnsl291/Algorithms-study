@@ -12,6 +12,12 @@ def gcd(n,,m):
 def lcm(n,m):
   return int((n*m)/gcd(n,m))
 
-def solution(n,m):
+def solution2(n,m):
   return lcm(n,m), gcd(n,m)
+  
+#solution 3 labda, 재귀 함수 
+def solution3 (m,n) :
+    gcd_ = lambda a,b: b if a%b==0 else gcd(b,a%b)
+    lcm_ = int((m*n)/gcd_(n,m))
+    return gcd_(n,m),lcm
   
