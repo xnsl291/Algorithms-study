@@ -32,6 +32,15 @@
 
 > 💙[Bronze V](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/bronze5)
 
+> 💙[Silver I](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver1)
+
+> 💙[Silver II](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver2)
+
+> 💙[Silver III](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver3)
+
+> 💙[Silver IV](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver4)
+
+> 💙[Silver V](https://github.com/xnsl291/Algorithms-study/tree/main/BaekJoon/py/silver5)
 
 
 
