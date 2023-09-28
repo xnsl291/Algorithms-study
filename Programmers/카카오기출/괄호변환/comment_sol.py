@@ -1,5 +1,5 @@
 ans = []
-
+# 
 def split_str(s):
     #빈문자열 들어올 경우
     if len(s) == 0:
@@ -15,7 +15,7 @@ def split_str(s):
             index = i
             break
         
-    cnt,u,v = 0,s[:i+2], s[i+2:]
+    cnt,u,v = 0,s[:index+2], s[index+2:]
 
     # print("u,v ==========",u,v)
 
@@ -30,11 +30,12 @@ def split_str(s):
             # print(f"v ===={v}")
 
             # v 앞뒤로 '(' , ')' 추가
-            ans.append("".join(["(",v,")"]))
+            ans.append("("+ v +")" )
 
             # u 문자열치환 후 추가
             ans.append("".join( [")" if i== "(" else "(" if i==")" else "" for i in u[1:-1] ] ))
 
+            # u_ans = "".join( [")" if i== "(" else "(" if i==")" else "" for i in u[1:-1] ] )
             # print(f"ans = {ans}")
 
         else:
@@ -52,4 +53,4 @@ s= "()))((()"   #"()(())()"
 # s="(()())()"
 # s = ")("
 
-print(split_str(s))
+print(split_str(s)=="()(())()")
