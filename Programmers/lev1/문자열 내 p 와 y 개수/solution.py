@@ -12,4 +12,8 @@ def solution(s):
     return True
     
  
+#solution 2
+#1줄로 간결하게 표현하기
+def solution(s):
+   return False if (s.count("p") + s.count("P")) != (s.count("y") + s.count("Y")) else True
 
