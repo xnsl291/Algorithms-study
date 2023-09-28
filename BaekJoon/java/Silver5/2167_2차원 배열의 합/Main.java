@@ -13,6 +13,12 @@ public class Main {
             for(int j =0; j<m; j++)
                 array[i][j] = scan.nextInt();
 
+        // 누적합
+        for(int i=1; i<n+1; i++) {
+            for(int j=1; j<m+1; j++) 
+                array[i][j] = array[i][j]+array[i-1][j] + array[i][j-1] - array[i-1][j-1];
+        }
+        
         int sum_num = scan.nextInt();
         for (int i =0; i<sum_num ;i++) {
             int answer = 0;
@@ -21,10 +27,8 @@ public class Main {
             int x2 = scan.nextInt();
             int y2 = scan.nextInt();
 
-            for (int val1 = x1; val1<x2+1;val1++)
-                for(int val2 = y1; val2 < y2+1; val2++)
-                    answer += array[val1 - 1][val2 - 1];
-            System.out.println(answer);
+        
+        System.out.println(array[x2][y2] - array[x2][y1-1] - array[x1-1][y2] + array[x1-1][y1-1])
         }
 
 
