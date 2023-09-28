@@ -13,14 +13,14 @@ public class Main {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
 
-        int [][] numbers = new int [n][n];
         int [][] dp = new int [n+1][n+1];
 
         for (int k=1; k<n+1; k++) {
             st = new StringTokenizer(br.readLine());
+            int row_sum = 0;
             for (int p = 1; p < n+1; p++) {
-                numbers[k-1][p-1] = Integer.parseInt(st.nextToken());
-                dp[k][p] = numbers[k-1][p-1] + dp[k-1][p]+ dp[k][p-1]-dp[k-1][p-1]  ;
+                row_sum += Integer.parseInt(st.nextToken());
+                dp[k][p] = dp[k-1][p]+ row_sum  ;
             }
         }
 
