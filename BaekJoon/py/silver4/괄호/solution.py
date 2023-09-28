@@ -8,8 +8,13 @@ for i in range(num):
             cnt += 1
         elif j == ')':
             cnt -= 1
+            
         if cnt < 0:
             print('NO')
             break
-    print('NO') if cnt > 0 else print('YES')
+        
+    if cnt==0:
+        print('YES')
+    elif cnt >0:
+        print("NO")
         
