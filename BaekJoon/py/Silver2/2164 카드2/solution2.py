@@ -7,6 +7,3 @@ while len(lst)>1:
     # lst.pop(0)
     
 print(lst[0])
-    
-    #지영님: 슬라이싱 s[2:]
-    
