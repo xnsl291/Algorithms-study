@@ -5,9 +5,12 @@ def solution(number, limit, power):
     # 3. 초과분은 power로 대체 
     # 4. 합 리턴
     cnt = 0
-    for i in range(1,number+1):
+    for i in range(1, int (number/2)+1):
+        print(i,"의 약수 개수 구하기")
         cnt += power if getNum(i) > limit else getNum(i)
-    return cnt
+        print("-------------------")
+
+    return cnt*2
 
 
 def getNum(number):
@@ -16,6 +19,7 @@ def getNum(number):
     for j in range(1, int(number**(1/2))+1):
         if number%j == 0 :
             cnt= cnt+2 if ( (j**2) != number) else cnt+1 
-
+            print("j = ",j," cnt = ",cnt)
     return cnt
 
+print(solution(5,3,2)) #203
