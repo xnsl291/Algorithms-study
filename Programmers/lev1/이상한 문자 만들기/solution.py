@@ -10,14 +10,3 @@ def solution(s):
 def solution2(s):
     return " ".join(map(lambda x: "".join([a.lower() if i % 2 else a.upper() for i, a in enumerate(x)]), s.split(" ")))
 
-
-s = "try hello world"
-expectation = "TrY HeLlO WoRlD"
-
-
-print(solution(s) )
-
-for a,b in enumerate(s.split(" ")):
-    print(a,b)
-# print(solution(s) == expectation)
-
