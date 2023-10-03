@@ -12,3 +12,22 @@ def solution(s, skip, index):
         dic[string] = chr(i) 
     
     return "".join( [dic[i] for i in s] )
+
+
+# 다른사람 풀이
+from string import ascii_lowercase
+# set에서 skip에 포함된 문자 제거 후 index더하여 계산
+
+def solution(s, skip, index):
+    result = ''
+    a_to_z = set(ascii_lowercase)
+    a_to_z -= set(skip)
+    a_to_z = sorted(a_to_z)
+    l = len(a_to_z)
+
+    dic_alpha = {alpha:idx for idx, alpha in enumerate(a_to_z)}
+
+    for i in s:
+        result += a_to_z[(dic_alpha[i] + index) % l]
+
+    return result
